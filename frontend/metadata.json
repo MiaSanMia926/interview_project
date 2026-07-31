@@ -1,0 +1,6 @@
+{
+  "name": "面试突破手 AI 智能模拟面试系统",
+  "description": "基于 RAG 与 Multi-Agent 协作的智能面试模拟系统，提供真实的岗位题库生成、AI面试官深度追问、多维度量化评估与个性化用户能力画像。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

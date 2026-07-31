@@ -1,0 +1,26 @@
+[
+  {
+    "question_id": "redis_002",
+    "category": "Redis",
+    "question": "请解释 Redis 持久化机制，RDB 和 AOF 有什么区别？",
+    "key_points": ["RDB 快照", "AOF 追加日志", "恢复速度", "数据安全性", "混合持久化"],
+    "reference_answer": "RDB 是快照持久化，适合备份和快速恢复；AOF 是追加写命令日志，数据丢失更少但文件通常更大。两者可组合使用，兼顾恢复效率和数据安全。",
+    "scoring_criteria": {
+      "accuracy": "是否准确说明 RDB 与 AOF 的机制",
+      "completeness": "是否覆盖优缺点和适用场景",
+      "logic": "是否按机制、差异、取舍组织答案"
+    }
+  },
+  {
+    "question_id": "redis_003",
+    "category": "Redis",
+    "question": "Redis 缓存穿透、缓存击穿、缓存雪崩分别是什么？如何治理？",
+    "key_points": ["布隆过滤器", "空值缓存", "互斥锁", "逻辑过期", "随机 TTL", "限流降级"],
+    "reference_answer": "缓存穿透用布隆过滤器和空值缓存，缓存击穿用互斥锁、逻辑过期或热点预热，缓存雪崩用随机过期时间、多级缓存和限流降级。",
+    "scoring_criteria": {
+      "accuracy": "是否区分三类缓存问题",
+      "completeness": "是否给出对应治理方案",
+      "logic": "是否按问题类型逐一回答"
+    }
+  }
+]
