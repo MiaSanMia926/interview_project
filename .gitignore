@@ -1,0 +1,33 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+# Local migration metadata (not part of the project)
+.original-manifest.json
+.migration-manifest.json
+
+# JavaScript
+node_modules/
+frontend/dist/
+# Generated databases, retrieval caches and logs
+data/*.db
+data/*.db-*
+data/chroma/
+data/logs/
+agent_debug.log
+interview_project.zip
